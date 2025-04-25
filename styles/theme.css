@@ -1,0 +1,47 @@
+/* Define a user-friendly theme color palette */
+:root {
+  --primary-color: #ffffff; /* White background */
+  --secondary-color: #4caf50; /* Soft green accent */
+  --text-color: #333333; /* Dark gray text */
+  --muted-text-color: #666666; /* Muted gray text */
+  --background-color: #f9f9f9; /* Light gray background */
+  --border-color: #dddddd; /* Light border color */
+}
+
+/* Apply the theme colors globally */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'font-mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green */
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.hover-pointer:hover {
+  cursor: pointer;
+}
