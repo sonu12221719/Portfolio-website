@@ -78,7 +78,7 @@ const Aboutme = () => {
       </div>
       {/* <div className="relative z-10">
       </div> */}
-        {/* <Education /> */}
+        <Education />
     </section>
   );
 };
