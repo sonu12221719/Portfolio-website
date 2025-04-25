@@ -54,7 +54,7 @@ const Projects = () => {
       description: 'A secure platform for college students to buy and sell second-hand products within the campus.',
       date: 'Jan 2025',
       githubLink: 'https://github.com/sonu12221719/UniMarket/tree/sonu',
-      // liveDemo: 'http://localhost:5174/',
+      liveDemo: '',
       techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
     },
     {
@@ -81,7 +81,7 @@ const Projects = () => {
       description: 'A music streaming clone where users can listen to a variety of songs anytime.',
       date: 'Mar 2023',
       githubLink: 'https://github.com/your-profile/project3',
-      liveDemo: 'https://live-demo-link.com/project3',
+      liveDemo: '',
       techStack: ['React', 'Redux', 'Spotify API'],
     },
     {
