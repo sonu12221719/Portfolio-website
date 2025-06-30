@@ -5,24 +5,16 @@ const Skills = () => {
   const skills = [
     { image: assets.html, title: 'HTML', category: 'Frontend' },
     { image: assets.css, title: 'CSS', category: 'Frontend' },
-    { image: assets.js, title: 'JavaScript', category: 'Frontend' },
+    { image: assets.javascript, title: 'JavaScript', category: 'Frontend' },
     { image: assets.react, title: 'React', category: 'Frameworks' },
-    { image: assets.tailwind, title: 'Tailwind CSS', category: 'Frontend' },
-    { image: assets.bootstrap, title: 'Bootstrap', category: 'Frontend' },
-    { image: assets.c, title: 'C', category: 'Programming Language' },
-    { image: assets.cpp, title: 'CPP', category: 'Programming Language' },
-    { image: assets.java, title: 'Java', category: 'Programming Language' },
-    { image: assets.php, title: 'PHP', category: 'Programming Language' },
-    { image: assets.laravel, title: 'Laravel', category: 'Frameworks' },
-    { image: assets.nodejs, title: 'Node.js', category: 'Backend' },
+    { image: assets.node, title: 'Node.js', category: 'Backend' },
     { image: assets.mongodb, title: 'MongoDB', category: 'Backend' },
     { image: assets.git, title: 'Git', category: 'Tools' },
-    { image: assets.github, title: 'GitHub', category: 'Tools' },
-    {image: assets.figma,title: 'Figma', category: 'Tools'},
+    { image: assets.webpack, title: 'Webpack', category: 'Tools' },
   ];
 
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const categories = ['All', 'Frontend', 'Backend', 'Programming Language' , 'Frameworks', 'Tools'];
+  const categories = ['All', 'Frontend', 'Backend', 'Frameworks', 'Tools'];
 
   const filteredSkills =
     selectedCategory === 'All'
@@ -36,7 +28,7 @@ const Skills = () => {
 
       <div className="relative z-10 container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-wider">
-          My <span className="bg-gradient-to-r from-teal-400 to-cyan-600 inline-block text-transparent bg-clip-text">Skills</span>
+          My <span className="text-cyan-400">Skills</span>
         </h1>
 
         {/* Category Filter */}

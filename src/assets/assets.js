@@ -6,7 +6,7 @@ import github_icon from './github.png';
 import linkedin_icon from './icons8-linkedin.svg';
 import profile_pic from './sonu.png';
 import general_cv from './General_CV_Template sonu kumar.pdf';
-import specialized_cv from './CV_202503250024577425_12221719.pdf';
+import specialized_cv from './Specialized_CV.pdf';
 import html from './html.jpg';
 import css from './css.jpg';
 import js from './js.jpg';
@@ -22,6 +22,7 @@ import cpp from './cpp.jpg';
 import java from './java.jpg';
 import php from './php.jpg';
 import laravel from './laravel.jpg';
+import feedback_dashboard from './feedback_dashboard.jpeg';
 import unimarket from './unimarket-ss.png';
 import helpinghand from './HelpingHand-ss.png';
 import spotify from './spotify-ss.png';
@@ -63,6 +64,7 @@ export const assets = {
     java,
     php,
     laravel,
+    feedback_dashboard,
     unimarket,
     helpinghand,
     spotify,

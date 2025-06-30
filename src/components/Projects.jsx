@@ -48,6 +48,16 @@ const Projects = () => {
   };
 
   const projects = [
+
+    {
+      image: assets.feedback_dashboard,
+      title: 'Feedback Dashboard',
+      description: 'A comprehensive dashboard for managing and analyzing user feedback effectively.',
+      date: 'June 2025',
+      githubLink: 'https://github.com/sonu12221719/Feedback_dashboard',
+      liveDemo: 'https://feedback-dashboard-8.onrender.com/',
+      techStack: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
+    },
     {
       image: assets.unimarket,
       title: 'UniMarket',

@@ -11,7 +11,7 @@ export default function MilestoneTimeline() {
       institution: "Lovely Professional University",
       location: "Jalandhar, Punjab",
       duration: "2022 - 2026",
-      score: "CGPA: 7.01",
+      score: "CGPA: 7.12",
       description: "Focusing on software development, algorithms, and computer systems",
       color: "from-[#0ff] to-[#00f6ff]",
     },
